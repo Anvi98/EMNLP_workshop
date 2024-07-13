@@ -1,0 +1,14 @@
+label,precision_crf_embeddings,recall_crf_embeddings,f1-score_crf_embeddings,support_crf_embeddings,,precision_crf_tokens,recall_crf_tokens,f1-score_crf_tokens,support_crf_tokens,,precision_pos_tag_embeddings_crf,recall_pos_tag_embeddings_crf,f1-score_pos_tag_embeddings_crf,support_pos_tag_embeddings_crf
+B-LAW,0.85,0.68,0.76,73,,0.88,0.75,0.81,71,,0.92,0.76,0.83,71
+B-VIOLATED BY,0.85,0.47,0.6,73,,0.86,0.51,0.64,71,,0.82,0.52,0.64,71
+B-VIOLATED ON,0.63,0.26,0.37,73,,0.59,0.37,0.45,71,,0.52,0.39,0.45,71
+B-VIOLATION,0.78,0.61,0.69,323,,0.79,0.61,0.69,352,,0.78,0.61,0.69,352
+I-LAW,0.87,0.77,0.82,184,,0.93,0.71,0.8,183,,0.94,0.72,0.81,183
+I-VIOLATED BY,0.82,0.4,0.54,135,,0.88,0.46,0.61,149,,0.88,0.48,0.62,149
+I-VIOLATED ON,0.78,0.26,0.39,173,,0.68,0.43,0.53,152,,0.63,0.5,0.56,152
+I-VIOLATION,0.79,0.68,0.73,3700,,0.78,0.68,0.73,3783,,0.78,0.68,0.73,3783
+macro avg,0.8,0.52,0.61,4734,,0.8,0.56,0.66,4832,,0.78,0.58,0.67,4832
+micro avg,0.8,0.65,0.71,4734,,0.79,0.66,0.72,4832,,0.78,0.66,0.72,4832
+weighted avg,0.79,0.65,0.71,4734,,0.79,0.66,0.71,4832,,0.78,0.66,0.72,4832
+,,,,,,,,,,,,,,
+,TOKEN + EMBEDDING - CRF,,,,,TOKEN - CRF,,,,,POS TAG + TOKEN + EMBEDDINGS - CRF,,,
